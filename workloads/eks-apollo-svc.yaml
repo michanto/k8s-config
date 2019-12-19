@@ -9,7 +9,7 @@ spec:
   type: LoadBalancer
   ports:
     - port: 80
-      targetPort: http
+      targetPort: 7580
       protocol: TCP
       name: http
   selector:
