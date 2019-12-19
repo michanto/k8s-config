@@ -26,9 +26,9 @@ spec:
         image: 758178152797.dkr.ecr.us-west-2.amazonaws.com/eks-apollo:v1
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 7580
-          name: http
-          protocol: TCP
+          - containerPort:7580
+            name: http
+            protocol: TCP
         livenessProbe:
           httpGet:
             path: /
