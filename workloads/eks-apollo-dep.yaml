@@ -33,11 +33,7 @@ spec:
           httpGet:
             path: /explorer/index.html
             port: http
-          initialDelaySeconds: 30
-          periodSeconds: 30
         readinessProbe:
           httpGet:
             path: /explorer/index.html
             port: http
-          initialDelaySeconds: 40
-          periodSeconds: 40
