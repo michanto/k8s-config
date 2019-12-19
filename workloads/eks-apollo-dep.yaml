@@ -31,10 +31,10 @@ spec:
             protocol: TCP
         livenessProbe:
           httpGet:
-            path: /
+            path: /explorer/index.html
             port: http
-          initialDelaySeconds: 5
-          periodSeconds: 5
+          initialDelaySeconds: 15
+          periodSeconds: 10
         readinessProbe:
           httpGet:
             path: /
